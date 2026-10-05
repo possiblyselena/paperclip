@@ -24,3 +24,25 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.hand-wave {
+  transform-origin: 85% 85%;
+  animation: hand-wave 1s ease-in-out infinite;
+}
+
+@keyframes hand-wave {
+  0%,
+  100% {
+    transform: rotate(-4deg);
+  }
+
+  50% {
+    transform: rotate(5deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hand-wave {
+    animation: none;
+  }
+}
