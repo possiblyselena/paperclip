@@ -18,7 +18,7 @@ export default function Home() {
             className="hover:transform hover:scale-105 transition-transform duration-300"
             src="/hackclub.svg"
             alt="Hack Club Logo"
-            width={600}
+            width={575}
             height={100}
             />
           </a>
@@ -28,7 +28,7 @@ export default function Home() {
               className="hover:transform hover:scale-105 transition-transform duration-300"
               src="/submit.svg"
               alt="submit"
-              width={450}
+              width={425}
               height={100}
               />
             </a>
@@ -37,7 +37,7 @@ export default function Home() {
               className="hover:transform hover:scale-105 transition-transform duration-300"
               src="/join.svg"
               alt="join"
-              width={275}
+              width={250}
               height={100}
               />     
             </a>
@@ -49,7 +49,7 @@ export default function Home() {
             alt="waving"
             width={200}
             height={100}
-            className="hand-wave self-end m-100"
+            className="hand-wave self-end m-95"
           />
           <footer className="flex items-end justify-between gap-4 px-20 m-15 text-3xl">
             <a className="flex-1 text-black underline" href="https://hackclub.com/privacy-and-terms">privacy & terms</a>
