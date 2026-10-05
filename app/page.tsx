@@ -15,7 +15,7 @@ export default function Home() {
         <header className="flex justify-between items-center">
           <a href="https://hackclub.com/">
             <Image
-            className="w-[43%] h-auto hover:scale-105 transition-transform duration-300"
+            className=" hover:scale-105 transition-transform duration-300"
             src="/hackclub.svg"
             alt="Hack Club Logo"
             width={575}
@@ -25,7 +25,7 @@ export default function Home() {
           <div className="flex w-[52%] justify-end gap-[1%]">
             <a href="https://forms.hackclub.com/paper-clip-submit">
               <Image
-              className="w-[62%] h-auto hover:scale-105 transition-transform duration-300"
+              className=" hover:scale-105 transition-transform duration-300"
               src="/submit.svg"
               alt="submit"
               width={425}
@@ -34,7 +34,7 @@ export default function Home() {
             </a>
             <a href="https://hackclub.enterprise.slack.com/archives/C0C6M7QJ6LW">
               <Image
-              className="w-[36%] h-auto hover:scale-105 transition-transform duration-300"
+              className=" hover:scale-105 transition-transform duration-300"
               src="/join.svg"
               alt="join"
               width={250}
@@ -47,7 +47,7 @@ export default function Home() {
           <Image
             src="/hand.svg"
             alt="waving"
-            width={200}
+            width={100}
             height={100}
             className="hand-wave self-end m-95"
           />
