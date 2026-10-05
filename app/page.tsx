@@ -49,7 +49,7 @@ export default function Home() {
             alt="waving"
             width={200}
             height={100}
-            className="hand-wave self-end m-160"
+            className="hand-wave self-end m-100"
           />
           <footer className="flex items-end justify-between gap-4 px-20 m-15 text-3xl">
             <a className="flex-1 text-black underline" href="https://hackclub.com/privacy-and-terms">privacy & terms</a>
