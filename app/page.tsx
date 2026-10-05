@@ -12,7 +12,7 @@ export default function Home() {
         className="col-start-1 row-start-1 h-auto w-full"
       />
       <div className="col-start-1 row-start-1 flex flex-col justify-between">
-        <header className="flex justify-between items-start">
+        <header className="flex justify-between items-center">
           <a href="https://hackclub.com/">
             <Image
             className="hover:transform hover:scale-105 transition-transform duration-300"
@@ -37,7 +37,7 @@ export default function Home() {
               className="hover:transform hover:scale-105 transition-transform duration-300"
               src="/join.svg"
               alt="join"
-              width={300}
+              width={275}
               height={100}
               />     
             </a>
