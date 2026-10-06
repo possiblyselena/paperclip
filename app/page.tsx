@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="grid min-h-screen">
+    <div className="grid grid-cols-1 min-h-screen">
       <Image
         src="/page.png"
         alt=""
@@ -11,52 +11,50 @@ export default function Home() {
         priority
         className="col-start-1 row-start-1 h-auto w-full"
       />
-      <div className="col-start-1 row-start-1 flex flex-col justify-between">
-        <header className="flex justify-between items-center">
+      <div className="col-start-1 row-start-1 relative flex flex-col justify-between">
+        <header className="flex justify-between items-center px-[3%] pt-[3%]">
           <a href="https://hackclub.com/">
             <Image
-            className=" hover:scale-105 transition-transform duration-300"
+            className="w-[50%] h-auto hover:scale-105 transition-transform duration-300"
             src="/hackclub.svg"
             alt="Hack Club Logo"
-            width={575}
-            height={100}
+            width={484}
+            height={194}
             />
           </a>
-          <div className="flex w-[52%] justify-end gap-[1%]">
+          <div className="flex items-center gap-[2%]">
             <a href="https://forms.hackclub.com/paper-clip-submit">
               <Image
-              className=" hover:scale-105 transition-transform duration-300"
+              className="w-[15vw] h-auto hover:scale-105 transition-transform duration-300"
               src="/submit.svg"
               alt="submit"
-              width={425}
-              height={100}
+              width={229}
+              height={118}
               />
             </a>
             <a href="https://hackclub.enterprise.slack.com/archives/C0C6M7QJ6LW">
               <Image
-              className=" hover:scale-105 transition-transform duration-300"
+              className="w-[10vw] h-auto hover:scale-105 transition-transform duration-300"
               src="/join.svg"
               alt="join"
-              width={250}
-              height={100}
+              width={142}
+              height={96}
               />     
             </a>
           </div>
         </header>
-        <div className="flex flex-col">
-          <Image
-            src="/hand.svg"
-            alt="waving"
-            width={100}
-            height={100}
-            className="hand-wave self-end m-95"
-          />
-          <footer className="flex items-end justify-between gap-4 px-20 m-15 text-3xl">
-            <a className="flex-1 text-black underline" href="https://hackclub.com/privacy-and-terms">privacy & terms</a>
-            <a className="flex-1 text-black underline" href="https://forms.hackclub.com/bounty">fullfillment bounty</a>
-            <p className="flex-1 text-black">some doodles made by Lola & Kaylee!</p>
-          </footer>
-        </div>
+        <Image
+          src="/hand.svg"
+          alt="waving"
+          width={76}
+          height={85}
+          className="hand-wave absolute right-[24.55%] top-[78.17%] w-[7.44%] h-auto"
+        />
+        <footer className="flex items-end justify-between gap-[2%] px-[6%] m-[4.5%] text-[2.2vw]">
+          <a className="flex-1 text-black underline" href="https://hackclub.com/privacy-and-terms">privacy & terms</a>
+          <a className="flex-1 text-black underline" href="https://forms.hackclub.com/bounty">fullfillment bounty</a>
+          <p className="flex-1 text-black">some doodles made by Lola & Kaylee!</p>
+        </footer>
       </div>
     </div>
   );
